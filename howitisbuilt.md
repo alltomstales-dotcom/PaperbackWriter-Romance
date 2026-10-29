@@ -48,3 +48,28 @@ A fresh Opus reader read Austen's *Persuasion* under the full romance protocol. 
 - **Chemistry per lead needs both points of view.** Austen tells it all from Anne's side, so every spark is hers. Our books alternate, so the check stands.
 
 **What the classic couldn't test.** The reader's want rose almost steadily, 7, 8, 7, 9, 10, and sure moved with it. Sure fell once, when the hero was offstage, not at a break. *Persuasion* has no dark moment in our sense, so the "sure falls at the dark moment" check is untested here, not proven wrong; Book 1 will be its first test. Austen's ending was plain three chapters before its turn. Our books aim for one.
+
+## 2026-10-29 · Book 1: four plan reads before a word of prose
+
+The series bible and the plan were written first, one file at a time. Then a fresh Opus reader, who had never seen the plan, read the outline in five staged batches. Graders scored each checkpoint. The setting, the names and the plot stay in the private books repo, so these are scores and stages only.
+
+| Read | Ch 7 clarity | Ch 12 | Ch 17 | Sure, ch 17 → 21 | Outline verdict |
+|---|---|---|---|---|---|
+| v1 | pass (5 of 6) | pass (rank 3) | **FAIL**: one conversation fixes it | – | – |
+| v2 | pass (5 of 6) | pass (not ranked) | pass (rank 2, p .20) | 8 → 8 | 7 / 8 / 8 / – / 7 / 8 |
+| v3 | pass (6 of 6) | pass (not ranked) | pass (rank 2, p .25) | 8 → 9 | 7 / 7 / 8 / – / 7 / 8 |
+| v4 | pass (6 of 6) | pass (not ranked) | pass (rank 4, p .10) | 8 → 8 | 7 / 7 / 8 / – / 7 / 8 |
+
+The verdict columns are overall, earned, chemistry, prose (not scored on an outline), character and satisfying. Every log's quotes were verified by string search, 25 to 47 per log.
+
+What each read taught:
+
+1. **A belief must win its last fight.** v1 failed at ch 17 because every step of change weakened the leads' false beliefs, and nothing re-confirmed them. By the two-thirds mark the reader saw only logistics. The fix was an event per lead, between the midpoint and the dark moment, in which the belief wins. That is now a rule in `plan-files.md`.
+2. **In an outline every line is foreground.** A route fact explained in full gave the ending away at ch 7. Given one clause, inside a decoy's business, it stopped doing so.
+3. **A label stripped by the digest loses its subject.** Twice the reader misattributed an action because "**X's visit:** she…" reached it as "She…". Now no bullet keeps its subject only in a label.
+4. **The dark moment has to be a choice, not a misunderstanding.** In v2 the reader read the break as a slip, and sure did not fall.
+5. **A dark moment must close routes.** In v3, two decoys were still open at the break, and sure *rose*, because more live routes make a reader surer.
+6. **Closing routes concentrates the probability on what remains.** In v4, closing them held sure level but moved the probability onto the real way back (p .5 at ch 21).
+7. **Sure at the dark moment never fell for this model reader.** Across four reads it stayed between 7 and 9 for a book it knows is a genre romance. Whether prose can move it is the prose read's question.
+
+The outline verdicts plateaued at 7 across v3 and v4, so the plan was frozen and the remaining fixes went into the writer brief. Drafting started on plan v4.
