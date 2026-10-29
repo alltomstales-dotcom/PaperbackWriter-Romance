@@ -9,6 +9,7 @@ Each file is under 2,000 words, and written in its own turn. `paperbackwriter-ro
   - **wound** (what happened to them);
   - **false belief** (what the wound taught them that isn't true).
 - **The external obstacle:** a period fact (law, money, inheritance, duty, distance) that presses on both wounds. It is sourced in file 02.
+  State it as it stands **on the page at ch 7**, not as backstory. The clarity grader compares the reader's account with this sentence. In the *Persuasion* calibration, a key that described the past marked a correct reader "wrong".
 - **The dark moment:** chapter, cause, and why it hurts.
 - **The intended way back:** one paragraph, its means stated plainly (who acts, what changes). It ends with the line `Uses beats: B2, B7, B11`.
 - **Three or more decoy ways back.** Each must be plausible on the page, with its own beats or scenes and its own support.
