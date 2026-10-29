@@ -19,3 +19,12 @@ Spec approved by the author. Nine engine tasks built test-first: growth beats, h
   - the belief is re-confirmed before the dark moment;
   - the dark moment is a choice that closes the decoy routes.
 - The plan is frozen at v4, and drafting has started.
+
+## 2026-10-29 · Book 1 draft, reads, fix pass, release
+
+- **Draft 1:** five Sonnet batches, about 55,000 words; heat, period and pointer checks clean.
+- **Prose read 1:** every gate passed, including sure falling at the dark moment (9 → 8). Verdict 8 / 8 / 9 / 9 / 8 / 9, HEA, obvious at 21.
+- **Fix pass 1:** 19 orders, three Sonnet agents on separate chapter groups.
+- **Prose read 2:** every gate passed except sure at the dark moment (9 → 9). Verdict 8 / 8 / 8 / 9 / 8 / 9. Hiding at 17 improved (p .30 → .20).
+- **Proof:** 27 hard-error fixes. **Final read:** 8 / 8 / 9 / 9 / 8 / 9, HEA, obvious at 19.
+- **Released privately.** Writer-brief rules 11 to 16 added; the dark-moment gate recorded as unreliable at the ceiling. Engine tagged `engine-v1`.

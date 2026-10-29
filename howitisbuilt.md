@@ -73,3 +73,28 @@ What each read taught:
 7. **Sure at the dark moment never fell for this model reader.** Across four reads it stayed between 7 and 9 for a book it knows is a genre romance. Whether prose can move it is the prose read's question.
 
 The outline verdicts plateaued at 7 across v3 and v4, so the plan was frozen and the remaining fixes went into the writer brief. Drafting started on plan v4.
+
+## 2026-10-29 · Book 1: draft, two prose reads, one fix pass, proof, release
+
+Sonnet writers drafted the book in five batches of five (four for the last), about 55,000 words, each batch checked and tagged in the private repo before the next was sent. Between batches I fixed by hand what the mechanical checks and a read-through caught. A writer took a "Beat" marker for new content. Another dropped a fact the skeleton stated, because it thought a rule forbade it. A third brought a note back into a character's hands with no account of how. Each became a writer-brief rule.
+
+Then three fresh Opus readers, each new to the book, read the prose in stages:
+
+| Read | Text | Ch 7 clarity | Ch 12 | Ch 17 | Sure, ch 17 → 21 | Verdict | Obvious at |
+|---|---|---|---|---|---|---|---|
+| Prose 1 | draft 1 | pass (5 of 6) | pass (not ranked) | pass (rank 1, p .30) | **9 → 8** | 8 / 8 / 9 / 9 / 8 / 9 | 21 |
+| Prose 2 | after the fix pass | pass (6 of 6) | pass (not ranked) | pass (rank 3, p .20) | 9 → 9 | 8 / 8 / 8 / 9 / 8 / 9 | 10* |
+| Final | after the proof | – | – | – | 8 → 8 | 8 / 8 / 9 / 9 / 8 / 9 | 19 |
+
+Ranks here are 1-based. *Read 2 named the theme at ch 10; its own ranks show the route still hidden at 12 and 17.
+
+What Book 1's prose taught:
+
+1. **The prose moved what the outline could not, once.** Four outline reads never made sure fall at the dark moment. The first prose read did (9 → 8): the reader believed the break as a choice. But the next two readers held level. A one-point signal at the top of the scale doesn't reproduce, so the gate is recorded as unreliable rather than moved, and Book 2 tests it again.
+2. **One closing line can give the ending away.** Read 1's ending became plain at ch 21 on the chapter's last sentence. The fix pass replaced it, and read 2's hiding at ch 17 improved from p .30 to .20.
+3. **Readers name the same craft faults independently.** Three readers, who never saw each other's notes, flagged the same things: a flaw reported second-hand, a confession cut off by a convenient interruption, a silence the plot needs with no reason given, and a closing line with no plant. Those are now writer-brief rules 13 to 16, for Book 2.
+4. **One fix pass, then stop.** Read 2 failed the dark-moment gate after the fix pass. The stop rule held: no second pass, the finding recorded, the book proofread and released.
+5. **The proofreader needs the sources, or must be overruled.** One of its 27 fixes reworded a sourced historical fact it could not see. The author's ruling restored the fact.
+6. **Parallel fix agents work if their chapters don't overlap.** Nineteen orders went to three agents on separate chapter groups, each keeping its own invention log. The one cross-group callback was checked afterwards and held.
+
+Released privately as `b1-release` (EPUB, PDF, RTF). Every method change is a row in `CALIBRATION.md`; the engine is tagged `engine-v1` here.
