@@ -15,3 +15,23 @@ Two more lessons go in before any plot exists:
 - **The facts the obstacle rests on get checked before the plan read.** In sci-fi a single wrong number survived from the first plan to the release.
 
 The author chose the target: historical, sweet (closed door), and a linked series with a new couple in each book. The calibration book is Austen's *Persuasion*, which is all three.
+
+## 2026-10-29 · The engine, in nine test-first steps
+
+The author approved the spec the same morning. The build plan has thirteen tasks: nine build the engine, one writes the method, and three run the calibration read and the two books. Each engine task started as a failing test.
+
+**What the engine reuses, and what it adds.** Staging chapters, building the reader-safe digest, proofreading and export come from the mystery engine, pinned at v0.1.0. The three genre-neutral checks come from the sci-fi engine, pinned at engine-v1.1: long exposition runs, narrator pointers, and the spoiler scan. The romance engine adds:
+- **Growth beats** (`beats`). This is fair play for romance. The way back from the dark moment may use only change the reader has watched happen, by 75% of the book. It's the sci-fi rules table re-keyed, including the strict row parser the sci-fi review demanded.
+- **Heat** (`heat`). The sweet label checked by machine. Period prose says "bosom friend", "the breast of the hill" and "the naked eye", so the patterns exclude those senses rather than banning words.
+- **Period** (`period`). Anachronisms, against a banned list the series bible owns.
+- **The romance reader log.** At each checkpoint the reader says:
+  - what keeps the couple apart, and whether one honest conversation would fix it;
+  - how much they want the couple together, and, as a separate number, how sure they are it will happen;
+  - from chapter 12, every way back they can imagine, with probabilities;
+  - the moments of chemistry, quoted and tagged with whose point of view they're in.
+- **Graders.** A fresh grader agent decides what code can't: whether the obstacle the reader names is inner, and which of the reader's routes is the intended way back. Every grader file is read strictly. The sci-fi review found that a gate which is quiet on bad input looks exactly like a gate that passed.
+- **Two kinds of read.** A plan read gates on clarity, the obstacle and hiding. A prose read adds chemistry in every batch, and investment: want rising, and sure falling at the dark moment.
+
+Two of the sci-fi review's deferred minors are built in from the start. The plan-read gate refuses to keep scoring after a failure, and it refuses a reference whose plan hashes miss a plan file. The suite has 78 tests.
+
+**First numbers from the calibration book.** *Persuasion* imports as 24 chapters and 83,305 words. The narrator-pointer check finds nothing in Austen, which is what a check for planner winks should find in a classic. The heat check finds one hit: "making love", in Austen's sense of courting. Exposition runs are long: the 90th percentile is 548 words, against 225 for the sci-fi reference. Both findings go to the calibration read.
