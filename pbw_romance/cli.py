@@ -54,6 +54,11 @@ def cmd_verdict(a):
     return _print(verdict(Path(a.verdict)))
 
 
+def cmd_check_plan(a):
+    from .plan import check_plan
+    return _print(check_plan(Path(a.plan), a.chapters))
+
+
 def main(argv=None) -> int:
     argv = list(sys.argv[1:] if argv is None else argv)
     if argv and argv[0] in PASSTHROUGH:
@@ -85,6 +90,10 @@ def main(argv=None) -> int:
     s = sub.add_parser("verdict", help="a finished read's scores against the targets")
     s.add_argument("verdict")
     s.set_defaults(func=cmd_verdict)
+
+    s = sub.add_parser("check-plan", help="structure check of a plan folder (no spoilers printed)")
+    s.add_argument("plan"); s.add_argument("--chapters", type=int, default=24)
+    s.set_defaults(func=cmd_check_plan)
 
     a = p.parse_args(argv)
     try:
