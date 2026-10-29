@@ -20,6 +20,11 @@ def _print(result) -> int:
     return 0 if not isinstance(result, dict) or result.get("passed", True) else 1
 
 
+def cmd_beats(a):
+    from .arc import check_beats
+    return _print(check_beats(Path(a.plan), a.chapters))
+
+
 def main(argv=None) -> int:
     argv = list(sys.argv[1:] if argv is None else argv)
     if argv and argv[0] in PASSTHROUGH:
@@ -28,6 +33,11 @@ def main(argv=None) -> int:
     p = argparse.ArgumentParser(prog="paperbackwriter-romance", description=__doc__,
                                 formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = p.add_subparsers(dest="command", required=True)
+
+    s = sub.add_parser("beats", help="earned check: the way back uses only beats shown by 75%%")
+    s.add_argument("plan")
+    s.add_argument("--chapters", type=int, default=24)
+    s.set_defaults(func=cmd_beats)
 
     a = p.parse_args(argv)
     try:
