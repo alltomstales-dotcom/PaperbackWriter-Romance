@@ -44,6 +44,11 @@ def cmd_period(a):
     return 1 if hits else 0
 
 
+def cmd_check_read(a):
+    from .reads import check_log
+    return _print(check_log(Path(a.log), a.finished))
+
+
 def main(argv=None) -> int:
     argv = list(sys.argv[1:] if argv is None else argv)
     if argv and argv[0] in PASSTHROUGH:
@@ -66,6 +71,11 @@ def main(argv=None) -> int:
     s.add_argument("chapters_dir")
     s.add_argument("--banned", required=True, help="BANNED.txt: one case-insensitive regex per line")
     s.set_defaults(func=cmd_period)
+
+    s = sub.add_parser("check-read", help="verify a reader's checkpoint log")
+    s.add_argument("log")
+    s.add_argument("--finished", action="store_true", help="audit a completed read")
+    s.set_defaults(func=cmd_check_read)
 
     a = p.parse_args(argv)
     try:
