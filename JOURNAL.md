@@ -39,3 +39,5 @@ Spec approved by the author. Nine engine tasks built test-first: growth beats, h
 - **Fix pass 1:** three Sonnet agents on separate chapter groups. The orders cover continuity, repetition and clarity.
 - **Prose read 2 (fix-pass text):** two gates failed. Ch 12 hiding: the true route ranked 1st (p .35), where read 1 had it 3rd on near-identical text. Dark moment: sure fell at ch 17 instead, then held. Ch 7 clarity 6 of 6 and ch 17 hiding (p .10) passed. Verdict 8 / 8 / 8 / 9 / 8 / 9, HEA. Stop rule: no second fix pass.
 - **Proofread:** a fresh Opus agent, hard errors plus one ruled extra (the lead's repeated hat gesture, which read 2 counted 19 times).
+- **Final read (b2-proof):** 189 of 189 quotes, sure 9 → 8 at the dark moment, verdict 8 / 8 / 8 / 8 / 8 / 9, HEA. Released privately as `b2-release`.
+- **Validation:** the frozen engine produced a second book at 8 or above on every measure in every prose read. Hiding at ch 12 (1 of 2) and the dark-moment gate (3 of 6 across both books) are reader-variable. The full table is in `howitisbuilt.md`.

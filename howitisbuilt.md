@@ -138,7 +138,38 @@ What Book 2 taught so far:
 
 1. **A fact-check edit is a plan edit.** I rewrote one way-back line to match a sourced travel fact. That made it the loudest thing in its scene, and the plan reader called it "a loaded gun". Hiding rule 3 applies to corrections too.
 2. **The lead's turn must be his own.** In v1 a letter told the lead what he had done wrong, and at ch 21 "one conversation" would fix it. In v2 he puts the letter away still believing he was right, and reaches the truth himself in ch 22. Sure fell at the dark moment for the first time in any outline read, in either book.
-3. **The dark-moment gate passed in prose once, then failed.** With rule 2 in the plan, the first prose reader's sure fell 9 → 8 with want at 9. Book 1's second prose read failed this. Prose read 2 decided it: it did not reproduce. That reader's sure fell at ch 17, one checkpoint early, and held at the planned dark moment. Across both books the gate has passed in 2 of 5 prose reads. It measures where a reader feels the low point, and a reader can feel it at an earlier separation.
+3. **The dark-moment gate passed in prose once, then failed.** With rule 2 in the plan, the first prose reader's sure fell 9 → 8 with want at 9. Book 1's second prose read failed this. Prose read 2 decided it: it did not reproduce. That reader's sure fell at ch 17, one checkpoint early, and held at the planned dark moment. The final read then passed it again (9 → 8). Across both books the gate passed in 3 of 6 prose reads. It measures where a reader feels the low point, and a reader can feel it at an earlier separation.
 4. **Obvious-at stays a self-report.** Three readers in a row gave an obvious-at that their own ranked routes contradict. The early-gate ranks are the measure that holds.
 5. **The writers caught plan errors.** A drafting agent found that the skeleton's "three winters" contradicted canon's dates, and followed canon. Another gave a returning object its history on the page without being told. The writer-brief rules from Book 1 (rules 11 to 16) were followed with few slips; the hand fixes were mostly continuity.
 6. **Ch 12 hiding varies by reader.** On near-identical text, one reader ranked the true route 3rd and the next ranked it 1st. A single reader's rank at the early checkpoint is a sample, not a measurement. The ch 17 check held for both (p .25 and .10).
+
+**The proofread and final read.** A fresh Opus proofreader made 39 exact-string fixes: typos, six continuity slips, one speaker, two lines brought to a sourced date, and 26 cuts of a repeated gesture (a ruled extra, since read 2 counted it 19 times). A fresh Opus reader then read the proofed text in stages: 189 of 189 quotes verified, sure 9 → 8 at the dark moment, verdict 8 / 8 / 8 / 8 / 8 / 9, HEA. Its obvious-at (12) is again a self-report. At 17 its top route still had the wrong lead acting, and the true route first became its top guess at 21, one chapter before the turn.
+
+Released privately as `b2-release` (EPUB, PDF, RTF).
+
+## 2026-10-29 · Validation: Book 1 against Book 2
+
+| Measure | Book 1 (built the engine) | Book 2 (frozen `engine-v1`) |
+|---|---|---|
+| Plan reads before drafting | 4 | 2 |
+| Final-read verdict (o / e / c / p / ch / s) | 8 / 8 / 9 / 9 / 8 / 9 | 8 / 8 / 8 / 8 / 8 / 9 |
+| Lowest verdict score in any prose read | 8 | 8 |
+| HEA, every prose read | yes (3 of 3) | yes (3 of 3) |
+| Inner obstacle, no one-conversation fix (7, 12, 17) | every graded read | every graded read |
+| Way back hidden at ch 12 | 2 of 2 graded reads | **1 of 2** |
+| Way back at .35 or less at ch 17 | 2 of 2 (p .30, .20) | 2 of 2 (p .25, .10) |
+| Sure falls at the dark moment | 1 of 3 | 2 of 3 |
+| Want at the dark moment | 9, 9, 9 | 9, 8, 9 |
+| Obvious at (self-report) | 21, 10*, 19 | 12, 18, 12 |
+| Quotes verified, final read | 190 of 190 | 189 of 189 |
+| Proof fixes | 27 | 39 (26 of them one repeated gesture) |
+| Engine changes during the book | many (every one in CALIBRATION.md) | none: `git diff engine-v1` empty |
+
+*Read 2 of Book 1 named the theme, not the route.
+
+**Verdict: the engine is validated for the measures that decide whether the book works, and two gates are reader-variable.**
+- On a new couple, new beliefs and a new way back, the frozen engine produced a book that three fresh readers each scored at least 8 on every measure. It took half as many plan reads as Book 1.
+- Every prose read in both books named an inner obstacle and ended HEA. The way back stayed at or under .35 at ch 17 in all four graded reads.
+- Two gates did not reproduce from reader to reader. Hiding at ch 12 failed for one of Book 2's two readers, on text unchanged since a read that passed it. The dark-moment gate passed in 3 of 6 prose reads across both books. Neither gate was moved: the engine is frozen and the evidence is a row in `CALIBRATION.md`.
+- Obvious-at, as the reader reports it, never met its target in either book. In every read it was contradicted by the same reader's ranked routes. It stays a self-report, read against the ranks.
+- For a next engine version, take ch 12 and the dark moment from two readers rather than one, and grade obvious-at from the ranks, not from the reader's own claim.
