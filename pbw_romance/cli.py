@@ -49,6 +49,11 @@ def cmd_check_read(a):
     return _print(check_log(Path(a.log), a.finished))
 
 
+def cmd_verdict(a):
+    from .grades import verdict
+    return _print(verdict(Path(a.verdict)))
+
+
 def main(argv=None) -> int:
     argv = list(sys.argv[1:] if argv is None else argv)
     if argv and argv[0] in PASSTHROUGH:
@@ -76,6 +81,10 @@ def main(argv=None) -> int:
     s.add_argument("log")
     s.add_argument("--finished", action="store_true", help="audit a completed read")
     s.set_defaults(func=cmd_check_read)
+
+    s = sub.add_parser("verdict", help="a finished read's scores against the targets")
+    s.add_argument("verdict")
+    s.set_defaults(func=cmd_verdict)
 
     a = p.parse_args(argv)
     try:
