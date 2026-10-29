@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pbw-romance"
+version = "0.1.0"
+description = "Sweet historical romance engine for PaperbackWriter."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = [
+  "paperbackwriter @ git+https://github.com/alltomstales-dotcom/PaperbackWriter@v0.1.0",
+  "pbw-scifi @ git+https://github.com/alltomstales-dotcom/PaperbackWriter-SciFi@engine-v1.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "fpdf2>=2.7"]
+
+[project.scripts]
+paperbackwriter-romance = "pbw_romance.cli:main"
+
+[tool.setuptools]
+packages = ["pbw_romance"]
