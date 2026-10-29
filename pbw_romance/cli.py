@@ -59,6 +59,16 @@ def cmd_check_plan(a):
     return _print(check_plan(Path(a.plan), a.chapters))
 
 
+def cmd_gate(a):
+    from .gate import advance_plan_read
+    return _print(advance_plan_read(Path(a.reference), Path(a.gate), a.checkpoint, a.chapters))
+
+
+def cmd_score(a):
+    from .gate import load_reference, score_checkpoint
+    return _print(score_checkpoint(load_reference(Path(a.reference)), a.checkpoint, "prose", a.chapters))
+
+
 def main(argv=None) -> int:
     argv = list(sys.argv[1:] if argv is None else argv)
     if argv and argv[0] in PASSTHROUGH:
@@ -94,6 +104,16 @@ def main(argv=None) -> int:
     s = sub.add_parser("check-plan", help="structure check of a plan folder (no spoilers printed)")
     s.add_argument("plan"); s.add_argument("--chapters", type=int, default=24)
     s.set_defaults(func=cmd_check_plan)
+
+    s = sub.add_parser("gate", help="plan read: score a checkpoint; release the next batch on a pass")
+    s.add_argument("reference"); s.add_argument("gate"); s.add_argument("checkpoint", type=int)
+    s.add_argument("--chapters", type=int, default=24)
+    s.set_defaults(func=cmd_gate)
+
+    s = sub.add_parser("score", help="prose read: score a checkpoint (chemistry and investment included)")
+    s.add_argument("reference"); s.add_argument("checkpoint", type=int)
+    s.add_argument("--chapters", type=int, default=24)
+    s.set_defaults(func=cmd_score)
 
     a = p.parse_args(argv)
     try:
