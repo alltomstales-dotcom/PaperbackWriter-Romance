@@ -69,6 +69,14 @@ def cmd_score(a):
     return _print(score_checkpoint(load_reference(Path(a.reference)), a.checkpoint, "prose", a.chapters))
 
 
+def cmd_import_reference(a):
+    from pbw_scifi.calibrate import write_chapters
+    from .calibrate import split_gutenberg
+    n = write_chapters(split_gutenberg(Path(a.source).read_text(encoding="utf-8")), Path(a.out))
+    print(f"wrote {n} chapters to {a.out}")
+    return 0
+
+
 def main(argv=None) -> int:
     argv = list(sys.argv[1:] if argv is None else argv)
     if argv and argv[0] in PASSTHROUGH:
@@ -114,6 +122,10 @@ def main(argv=None) -> int:
     s.add_argument("reference"); s.add_argument("checkpoint", type=int)
     s.add_argument("--chapters", type=int, default=24)
     s.set_defaults(func=cmd_score)
+
+    s = sub.add_parser("import-reference", help="untitled-chapter Gutenberg .txt -> chNN.txt files")
+    s.add_argument("source"); s.add_argument("out")
+    s.set_defaults(func=cmd_import_reference)
 
     a = p.parse_args(argv)
     try:
