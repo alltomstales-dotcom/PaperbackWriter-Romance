@@ -37,3 +37,5 @@ Spec approved by the author. Nine engine tasks built test-first: growth beats, h
 - **Draft 1:** five Sonnet batches, about 56,600 words; heat, period and pointer checks clean.
 - **Prose read 1:** every gate passed, including the dark-moment gate (9 → 8, want 9). Verdict 8 / 8 / 9 / 9 / 9 / 9, HEA.
 - **Fix pass 1:** three Sonnet agents on separate chapter groups. The orders cover continuity, repetition and clarity.
+- **Prose read 2 (fix-pass text):** two gates failed. Ch 12 hiding: the true route ranked 1st (p .35), where read 1 had it 3rd on near-identical text. Dark moment: sure fell at ch 17 instead, then held. Ch 7 clarity 6 of 6 and ch 17 hiding (p .10) passed. Verdict 8 / 8 / 8 / 9 / 8 / 9, HEA. Stop rule: no second fix pass.
+- **Proofread:** a fresh Opus agent, hard errors plus one ruled extra (the lead's repeated hat gesture, which read 2 counted 19 times).

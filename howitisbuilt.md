@@ -122,10 +122,23 @@ Ranks here are 1-based. *The v2 reader's 16 was the destination; its own notes d
 
 *Self-reported. The same reader's ranks at 12 and 17 put the true route at .20 and .25.
 
+**The one fix pass** (`b2-fix-1`) went out as three Sonnet groups from one order list: continuity, repetition and clarity, with no plot, beat or spark change. Four reader notes were declined, each because acting on it would point at the way back.
+
+**Prose read 2 (after the fix pass), two gates failed:**
+
+| Ch 7 | Ch 12 | Ch 17 | Sure, ch 12 → 17 → 21 | Verdict | Obvious at |
+|---|---|---|---|---|---|
+| clarity 6 of 6; sparks both leads | inner; **rank 1 (p .35), fail** | inner; rank 4 (p .10) | 9 → **8** → 8, fail; want 9, 9, 8 | 8 / 8 / 8 / 9 / 8 / 9, HEA | 18 |
+
+- **Ch 12 hiding failed.** The second reader's top route at ch 12 came close enough to the real one for the grader to match it. The lines it rested on had not changed since draft 1, where the first reader ranked the same idea third. That is two fresh readers on near-identical text, one pass and one fail.
+- **The dark-moment gate failed.** Sure fell one checkpoint early, at a separation scene the reader called "the dark moment", and then held.
+- **The stop rule held.** No second fix pass. The reader's structural notes go to the record. One of them (plant a way-back fact earlier) is exactly what the stop rules forbid.
+
 What Book 2 taught so far:
 
 1. **A fact-check edit is a plan edit.** I rewrote one way-back line to match a sourced travel fact. That made it the loudest thing in its scene, and the plan reader called it "a loaded gun". Hiding rule 3 applies to corrections too.
 2. **The lead's turn must be his own.** In v1 a letter told the lead what he had done wrong, and at ch 21 "one conversation" would fix it. In v2 he puts the letter away still believing he was right, and reaches the truth himself in ch 22. Sure fell at the dark moment for the first time in any outline read, in either book.
-3. **The dark-moment gate passed in prose on the first read.** With rule 2 in the plan, the first prose reader's sure fell 9 → 8 with want at 9. Book 1's second prose read failed this. One more reader (prose read 2) decides whether it reproduces.
+3. **The dark-moment gate passed in prose once, then failed.** With rule 2 in the plan, the first prose reader's sure fell 9 → 8 with want at 9. Book 1's second prose read failed this. Prose read 2 decided it: it did not reproduce. That reader's sure fell at ch 17, one checkpoint early, and held at the planned dark moment. Across both books the gate has passed in 2 of 5 prose reads. It measures where a reader feels the low point, and a reader can feel it at an earlier separation.
 4. **Obvious-at stays a self-report.** Three readers in a row gave an obvious-at that their own ranked routes contradict. The early-gate ranks are the measure that holds.
 5. **The writers caught plan errors.** A drafting agent found that the skeleton's "three winters" contradicted canon's dates, and followed canon. Another gave a returning object its history on the page without being told. The writer-brief rules from Book 1 (rules 11 to 16) were followed with few slips; the hand fixes were mostly continuity.
+6. **Ch 12 hiding varies by reader.** On near-identical text, one reader ranked the true route 3rd and the next ranked it 1st. A single reader's rank at the early checkpoint is a sample, not a measurement. The ch 17 check held for both (p .25 and .10).
