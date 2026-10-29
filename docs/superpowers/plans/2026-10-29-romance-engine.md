@@ -1704,7 +1704,7 @@ The stages are the same as the sci-fi Book 1, with romance gates. The books repo
 
 - [ ] **Step 1:** Confirm `git diff engine-v1 -- pbw_romance .claude templates` is empty. It must stay empty until Book 2's release.
 - [ ] **Step 2:** Run Task 12, Steps 1–8, for Book 2:
-  - new couple, same place;
+  - new couple, same series;
   - Book 1's couple stays in the background;
   - Book 2's reader has never read Book 1.
 - [ ] **Step 3:** In JOURNAL.md and `howitisbuilt.md`, add a Book 1 vs Book 2 table: overall, earned, chemistry, hidden at 17, obvious at, want and sure curves. Then give the validation verdict.

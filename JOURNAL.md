@@ -32,12 +32,12 @@ Spec approved by the author. Nine engine tasks built test-first: growth beats, h
 ## 2026-10-29 · Book 2 (validation) on engine-v1
 
 - **Fact-check:** 27 claims; 15 confirmed, 5 corrected; 6 not found and 1 contested.
-- **Plan read v1:** early gate passed, verdict 7 / 7 / 8 / 6 / 8 / 8, obvious at 18. A fact-check edit made a way-back line loud.
+- **Plan read v1:** early gate passed, verdict 7 / 7 / 8 / 6 / 8 / 8, obvious at 18. A fact-check edit made one skeleton line loud.
 - **Plan read v2:** early gate passed, and sure fell at the dark moment (8 → 7), a first for an outline read. Verdict 7 / 7 / 7 / 6 / 8 / 8.
 - **Draft 1:** five Sonnet batches, about 56,600 words; heat, period and pointer checks clean.
 - **Prose read 1:** every gate passed, including the dark-moment gate (9 → 8, want 9). Verdict 8 / 8 / 9 / 9 / 9 / 9, HEA.
 - **Fix pass 1:** three Sonnet agents on separate chapter groups. The orders cover continuity, repetition and clarity.
 - **Prose read 2 (fix-pass text):** two gates failed. Ch 12 hiding: the true route ranked 1st (p .35), where read 1 had it 3rd on near-identical text. Dark moment: sure fell at ch 17 instead, then held. Ch 7 clarity 6 of 6 and ch 17 hiding (p .10) passed. Verdict 8 / 8 / 8 / 9 / 8 / 9, HEA. Stop rule: no second fix pass.
-- **Proofread:** a fresh Opus agent, hard errors plus one ruled extra (the lead's repeated hat gesture, which read 2 counted 19 times).
+- **Proofread:** a fresh Opus agent, hard errors plus one ruled extra (one repeated phrase, which read 2 counted 19 times).
 - **Final read (b2-proof):** 189 of 189 quotes, sure 9 → 8 at the dark moment, verdict 8 / 8 / 8 / 8 / 8 / 9, HEA. Released privately as `b2-release`.
 - **Validation:** the frozen engine produced a second book at 8 or above on every measure in every prose read. Hiding at ch 12 (1 of 2) and the dark-moment gate (3 of 6 across both books) are reader-variable. The full table is in `howitisbuilt.md`.

@@ -4,7 +4,7 @@ A sweet historical romance engine for [PaperbackWriter](https://github.com/allto
 
 Romance readers know the couple ends together. The engine measures what they can't know: what really keeps the couple apart, how much the reader wants them together, and whether the way back from the dark moment stays hidden until it arrives — and still feels earned.
 
-**Status:** engine built (`engine-v0.1`); calibration next. Spec in `docs/superpowers/specs/`, plan in `docs/superpowers/plans/`, history in `howitisbuilt.md`, every gate change in `CALIBRATION.md`.
+**Status:** validated. Books 1 and 2 were written and read (private), Book 2 on the frozen `engine-v1`; the final review's fixes are in `engine-v1.1`. Spec in `docs/superpowers/specs/`, plan in `docs/superpowers/plans/`, history in `howitisbuilt.md`, every gate change in `CALIBRATION.md`.
 
 ## Install
 

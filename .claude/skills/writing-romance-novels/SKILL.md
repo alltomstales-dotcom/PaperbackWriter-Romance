@@ -66,6 +66,7 @@ Tag every iteration in the books repo: `bN-plan-vK`, `bN-planread-vK-pass|fail`,
 | Draft | `heat CHAPTERS`; `period CHAPTERS --banned BANNED.txt`; `exposition CHAPTERS --threshold <CALIBRATION>`; `pointers CHAPTERS` |
 | Prose read | `check-read LOG`; `score REFERENCE CHECKPOINT`; `verdict verdict.json` |
 | Every push | `spoilers --terms PRIVATE` (the pre-push hook does it) |
+| A push that touches `howitisbuilt.md`, `JOURNAL.md`, `CALIBRATION.md` or the skill during a book | A fresh agent that knows nothing of the plot reads the diff and flags any line that names a specific event, object, chapter beat or which lead acts, rather than a role. The term scan cannot catch paraphrase |
 
 Staging, digests, proofreading and export use the mystery engine's `paperbackwriter` (`stage`, `reader`, `digest`, `proof`, `export`).
 

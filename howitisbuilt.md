@@ -66,7 +66,7 @@ What each read taught:
 
 1. **A belief must win its last fight.** v1 failed at ch 17 because every step of change weakened the leads' false beliefs, and nothing re-confirmed them. By the two-thirds mark the reader saw only logistics. The fix was an event per lead, between the midpoint and the dark moment, in which the belief wins. That is now a rule in `plan-files.md`.
 2. **In an outline every line is foreground.** A route fact explained in full gave the ending away at ch 7. Given one clause, inside a decoy's business, it stopped doing so.
-3. **A label stripped by the digest loses its subject.** Twice the reader misattributed an action because "**X's visit:** she…" reached it as "She…". Now no bullet keeps its subject only in a label.
+3. **A label stripped by the digest loses its subject.** Twice the reader misattributed an action because "**X's scene:** they…" reached it as "They…". Now no bullet keeps its subject only in a label.
 4. **The dark moment has to be a choice, not a misunderstanding.** In v2 the reader read the break as a slip, and sure did not fall.
 5. **A dark moment must close routes.** In v3, two decoys were still open at the break, and sure *rose*, because more live routes make a reader surer.
 6. **Closing routes concentrates the probability on what remains.** In v4, closing them held sure level but moved the probability onto the real way back (p .5 at ch 21).
@@ -76,7 +76,7 @@ The outline verdicts plateaued at 7 across v3 and v4, so the plan was frozen and
 
 ## 2026-10-29 · Book 1: draft, two prose reads, one fix pass, proof, release
 
-Sonnet writers drafted the book in five batches of five (four for the last), about 55,000 words, each batch checked and tagged in the private repo before the next was sent. Between batches I fixed by hand what the mechanical checks and a read-through caught. A writer took a "Beat" marker for new content. Another dropped a fact the skeleton stated, because it thought a rule forbade it. A third brought a note back into a character's hands with no account of how. Each became a writer-brief rule.
+Sonnet writers drafted the book in five batches of five (four for the last), about 55,000 words, each batch checked and tagged in the private repo before the next was sent. Between batches I fixed by hand what the mechanical checks and a read-through caught. A writer took a "Beat" marker for new content. Another dropped a fact the skeleton stated, because it thought a rule forbade it. A third left a continuity gap. Each became a writer-brief rule.
 
 Then three fresh Opus readers, each new to the book, read the prose in stages:
 
@@ -91,8 +91,8 @@ Ranks here are 1-based. *Read 2 named the theme at ch 10; its own ranks show the
 What Book 1's prose taught:
 
 1. **The prose moved what the outline could not, once.** Four outline reads never made sure fall at the dark moment. The first prose read did (9 → 8): the reader believed the break as a choice. But the next two readers held level. A one-point signal at the top of the scale doesn't reproduce, so the gate is recorded as unreliable rather than moved, and Book 2 tests it again.
-2. **One closing line can give the ending away.** Read 1's ending became plain at ch 21 on the chapter's last sentence. The fix pass replaced it, and read 2's hiding at ch 17 improved from p .30 to .20.
-3. **Readers name the same craft faults independently.** Three readers, who never saw each other's notes, flagged the same things: a flaw reported second-hand, a confession cut off by a convenient interruption, a silence the plot needs with no reason given, and a closing line with no plant. Those are now writer-brief rules 13 to 16, for Book 2.
+2. **One closing line can give the ending away.** Read 1's ending became plain on one closing line. The fix pass replaced it, and read 2's hiding at ch 17 improved from p .30 to .20.
+3. **Readers name the same craft faults independently.** Three readers, who never saw each other's notes, flagged the same four craft faults. Those are now writer-brief rules 13 to 16, for Book 2.
 4. **One fix pass, then stop.** Read 2 failed the dark-moment gate after the fix pass. The stop rule held: no second pass, the finding recorded, the book proofread and released.
 5. **The proofreader needs the sources, or must be overruled.** One of its 27 fixes reworded a sourced historical fact it could not see. The author's ruling restored the fact.
 6. **Parallel fix agents work if their chapters don't overlap.** Nineteen orders went to three agents on separate chapter groups, each keeping its own invention log. The one cross-group callback was checked afterwards and held.
@@ -103,7 +103,7 @@ Released privately as `b1-release` (EPUB, PDF, RTF). Every method change is a ro
 
 Book 2 is the test of `engine-v1`. It is a new couple and a new set of beliefs, planned and drafted with no engine change. `git diff engine-v1 -- pbw_romance .claude templates` stayed empty throughout. Everything below happened in the books repo and the writer brief.
 
-**Fact-check first.** A research agent checked 27 period claims the plot leans on. It confirmed 15 and corrected 5; 6 were not found and 1 was contested. The corrections went into canon before any read. When I wrote one of them into the skeleton, it gave the ending away (see plan read v1).
+**Fact-check first.** A research agent checked 27 period claims the plot leans on. It confirmed 15 and corrected 5; 6 were not found and 1 was contested. The corrections went into canon before any read. One corrected line in the skeleton then made the plan read v1 reader too sure (see below).
 
 **Two plan reads:**
 
@@ -112,7 +112,7 @@ Book 2 is the test of `engine-v1`. It is a new couple and a new set of beliefs, 
 | Plan v1 | pass (5 of 6) | not ranked | 2 (.20) | 8 → 8 | 7 / 7 / 8 / 6 / 8 / 8 | 18 |
 | Plan v2 | pass (5 of 6) | 5 (.10) | 3 (.20) | **8 → 7** | 7 / 7 / 7 / 6 / 8 / 8 | 16* |
 
-Ranks here are 1-based. *The v2 reader's 16 was the destination; its own notes date the route to 21, one chapter before the turn.
+Ranks here are 1-based. *The v2 reader's 16 was the destination; its own notes date the route to the last checkpoint before the turn.
 
 **Prose read 1 (draft 1), every gate passed:**
 
@@ -131,19 +131,19 @@ Ranks here are 1-based. *The v2 reader's 16 was the destination; its own notes d
 | clarity 6 of 6; sparks both leads | inner; **rank 1 (p .35), fail** | inner; rank 4 (p .10) | 9 → **8** → 8, fail; want 9, 9, 8 | 8 / 8 / 8 / 9 / 8 / 9, HEA | 18 |
 
 - **Ch 12 hiding failed.** The second reader's top route at ch 12 came close enough to the real one for the grader to match it. The lines it rested on had not changed since draft 1, where the first reader ranked the same idea third. That is two fresh readers on near-identical text, one pass and one fail.
-- **The dark-moment gate failed.** Sure fell one checkpoint early, at a separation scene the reader called "the dark moment", and then held.
-- **The stop rule held.** No second fix pass. The reader's structural notes go to the record. One of them (plant a way-back fact earlier) is exactly what the stop rules forbid.
+- **The dark-moment gate failed.** Sure fell one checkpoint early (ch 17) and then held.
+- **The stop rule held.** No second fix pass. The reader's structural notes go to the record. One of them would add a way-back piece before ch 17, which the stop rules forbid.
 
 What Book 2 taught so far:
 
-1. **A fact-check edit is a plan edit.** I rewrote one way-back line to match a sourced travel fact. That made it the loudest thing in its scene, and the plan reader called it "a loaded gun". Hiding rule 3 applies to corrections too.
-2. **The lead's turn must be his own.** In v1 a letter told the lead what he had done wrong, and at ch 21 "one conversation" would fix it. In v2 he puts the letter away still believing he was right, and reaches the truth himself in ch 22. Sure fell at the dark moment for the first time in any outline read, in either book.
-3. **The dark-moment gate passed in prose once, then failed.** With rule 2 in the plan, the first prose reader's sure fell 9 → 8 with want at 9. Book 1's second prose read failed this. Prose read 2 decided it: it did not reproduce. That reader's sure fell at ch 17, one checkpoint early, and held at the planned dark moment. The final read then passed it again (9 → 8). Across both books the gate passed in 3 of 6 prose reads. It measures where a reader feels the low point, and a reader can feel it at an earlier separation.
+1. **A fact-check edit is a plan edit.** A corrected line became the loudest thing in its scene, and the plan reader called it "a loaded gun". Hiding rule 3 applies to corrections too.
+2. **The turn must come from the leads' own growth beats.** In v1 it came from outside the arc, and at ch 21 "one conversation" would fix it. In v2 it rests on the leads' beats. Sure fell at the dark-moment checkpoint for the first time in any outline read, in either book.
+3. **The dark-moment gate passed in prose once, then failed.** With rule 2 in the plan, the first prose reader's sure fell 9 → 8 with want at 9. Book 1's second prose read failed this. Prose read 2 decided it: it did not reproduce. That reader's sure fell at ch 17, one checkpoint early, and held at the planned dark moment. The final read then passed it again (9 → 8). Across both books the gate passed in 3 of 6 prose reads. It measures where a reader feels the low point, which need not be the planned checkpoint.
 4. **Obvious-at stays a self-report.** Three readers in a row gave an obvious-at that their own ranked routes contradict. The early-gate ranks are the measure that holds.
-5. **The writers caught plan errors.** A drafting agent found that the skeleton's "three winters" contradicted canon's dates, and followed canon. Another gave a returning object its history on the page without being told. The writer-brief rules from Book 1 (rules 11 to 16) were followed with few slips; the hand fixes were mostly continuity.
+5. **The writers caught plan errors.** A drafting agent found that a number in the skeleton contradicted canon's dates, and followed canon. Another closed a continuity gap on the page without being told. The writer-brief rules from Book 1 (rules 11 to 16) were followed with few slips; the hand fixes were mostly continuity.
 6. **Ch 12 hiding varies by reader.** On near-identical text, one reader ranked the true route 3rd and the next ranked it 1st. A single reader's rank at the early checkpoint is a sample, not a measurement. The ch 17 check held for both (p .25 and .10).
 
-**The proofread and final read.** A fresh Opus proofreader made 39 exact-string fixes: typos, six continuity slips, one speaker, two lines brought to a sourced date, and 26 cuts of a repeated gesture (a ruled extra, since read 2 counted it 19 times). A fresh Opus reader then read the proofed text in stages: 189 of 189 quotes verified, sure 9 → 8 at the dark moment, verdict 8 / 8 / 8 / 8 / 8 / 9, HEA. Its obvious-at (12) is again a self-report. At 17 its top route still had the wrong lead acting, and the true route first became its top guess at 21, one chapter before the turn.
+**The proofread and final read.** A fresh Opus proofreader made 39 exact-string fixes: typos, six continuity slips, one speaker, two lines brought to a sourced date, and 26 cuts of one repeated phrase (a ruled extra, since read 2 counted it 19 times). A fresh Opus reader then read the proofed text in stages: 189 of 189 quotes verified, sure 9 → 8 at the dark moment, verdict 8 / 8 / 8 / 8 / 8 / 9, HEA. Its obvious-at (12) is again a self-report. At 17 its top route was still a wrong one, and the true route first became its top guess at the last checkpoint before the turn.
 
 Released privately as `b2-release` (EPUB, PDF, RTF).
 
@@ -162,7 +162,7 @@ Released privately as `b2-release` (EPUB, PDF, RTF).
 | Want at the dark moment | 9, 9, 9 | 9, 8, 9 |
 | Obvious at (self-report) | 21, 10*, 19 | 12, 18, 12 |
 | Quotes verified, final read | 190 of 190 | 189 of 189 |
-| Proof fixes | 27 | 39 (26 of them one repeated gesture) |
+| Proof fixes | 27 | 39 (26 of them one repeated phrase) |
 | Engine changes during the book | many (every one in CALIBRATION.md) | none: `git diff engine-v1` empty |
 
 *Read 2 of Book 1 named the theme, not the route.
