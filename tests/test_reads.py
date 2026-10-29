@@ -72,3 +72,9 @@ def test_check_read_command(tmp_path):
     path = _log(_folder(tmp_path))
     assert main(["check-read", str(path)]) == 0
     assert main(["check-read", str(_log(tmp_path, sure=0))]) == 1
+
+
+@pytest.mark.parametrize("pov", [["Ada"], 3])
+def test_a_spark_pov_must_be_text(tmp_path, pov):
+    path = _log(_folder(tmp_path), sparks=[{"pov": pov, "chapter": 4, "quote": "Ada smiled at Ben in chapter 4."}])
+    assert "Spark 1: needs a 'pov' naming the lead" in check_log(path)["errors"]

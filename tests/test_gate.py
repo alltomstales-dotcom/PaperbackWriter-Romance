@@ -141,3 +141,14 @@ def test_gate_and_score_commands(tmp_path):
     assert main(["gate", str(ref), str(gate), "7"]) == 0
     _stage_prose(read, 7)
     assert main(["score", str(ref), "7"]) == 0
+
+
+def test_a_full_name_pov_counts_and_an_unmatched_pov_is_reported(tmp_path):
+    plan, read, ref, gate = _setup(tmp_path)
+    _stage_prose(read, 7)
+    _grade7(read)
+    _log(read, 7, sparks=[_spark("Ada Penrose", 2), _spark("Ben Hale (B)", 3, "Ben laughed at Ada"),
+                          _spark("the narrator", 4), _spark("Ada and Ben", 5)])
+    chem = score_checkpoint(load_reference(ref), 7, "prose")["checks"]["chemistry"]
+    assert chem["sparks"] == {"A": 1, "B": 1}
+    assert chem["unmatched"] == [3, 4]

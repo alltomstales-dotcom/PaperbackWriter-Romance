@@ -21,3 +21,12 @@ def test_spoilers_passthrough_scans_tracked_files(tmp_path, capsys):
     assert main(["spoilers", "--terms", str(terms), "--repo", str(repo)]) == 1
     assert "Widget" not in capsys.readouterr().out
     assert main(["spoilers", "--terms", str(tmp_path / "nope"), "--repo", str(repo)]) == 2
+
+
+def test_romance_exposition_defaults_to_the_calibrated_400(tmp_path, capsys):
+    from pbw_romance import EXPOSITION_THRESHOLD
+    assert EXPOSITION_THRESHOLD == 400
+    run = " ".join(["word"] * 350) + "."
+    (tmp_path / "ch01.txt").write_text(f"Chapter 1: T\n\n{run}\n")
+    assert main(["exposition", str(tmp_path)]) == 0
+    assert main(["exposition", str(tmp_path), "--threshold", "300"]) == 1

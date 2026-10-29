@@ -81,6 +81,9 @@ def main(argv=None) -> int:
     argv = list(sys.argv[1:] if argv is None else argv)
     if argv and argv[0] in PASSTHROUGH:
         from pbw_scifi.cli import main as scifi
+        if argv[0] == "exposition" and not any(a.startswith("--threshold") for a in argv):
+            from . import EXPOSITION_THRESHOLD
+            argv += ["--threshold", str(EXPOSITION_THRESHOLD)]
         return scifi(argv)
     p = argparse.ArgumentParser(prog="paperbackwriter-romance", description=__doc__,
                                 formatter_class=argparse.RawDescriptionHelpFormatter)

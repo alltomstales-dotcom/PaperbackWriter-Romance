@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 import shutil
 from pathlib import Path
 
@@ -43,8 +44,12 @@ def load_reference(path: Path) -> dict:
 
 
 def _lead_of(pov: str, leads: dict) -> str | None:
+    """The one lead whose listed name is the pov, or a whole word or phrase in it ("Ada
+    Penrose" is Ada). None when no lead matches, or when both do."""
     p = pov.strip().lower()
-    return next((k for k, names in leads.items() if p in (n.lower() for n in names)), None)
+    hits = [k for k, names in leads.items()
+            if any(p == n.lower() or re.search(rf"(?<!\w){re.escape(n.lower())}(?!\w)", p) for n in names)]
+    return hits[0] if len(hits) == 1 else None
 
 
 def score_checkpoint(ref: dict, checkpoint: int, mode: str, n_chapters: int = 24) -> dict:
@@ -79,12 +84,16 @@ def score_checkpoint(ref: dict, checkpoint: int, mode: str, n_chapters: int = 24
         checks["hidden"] = {"passed": choice["rank"] > 1 if i == 1 else choice["p"] <= 0.35}
     if mode == "prose":
         lo = points[i - 1] if i else 0
-        counts = {k: 0 for k in ref["leads"]}
-        for s in log.get("sparks", []):
+        counts, unmatched = {k: 0 for k in ref["leads"]}, []
+        for n, s in enumerate(log.get("sparks", []), 1):
             lead = _lead_of(s["pov"], ref["leads"])
-            if lead and lo < s.get("chapter", 0) <= checkpoint:
+            if lead is None:
+                unmatched.append(n)
+            elif lo < s.get("chapter", 0) <= checkpoint:
                 counts[lead] += 1
         checks["chemistry"] = {"passed": all(c >= 1 for c in counts.values()), "sparks": counts}
+        if unmatched:
+            checks["chemistry"]["unmatched"] = unmatched
         dark = next(p for p in points if p >= ref["dark_moment_chapter"])
         if i == 1:
             checks["investment"] = {"passed": log["want"]["score"] >= 6}

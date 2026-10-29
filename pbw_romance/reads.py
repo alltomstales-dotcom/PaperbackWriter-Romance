@@ -51,7 +51,7 @@ def check_log(path: Path, finished: bool = False) -> dict:
         elif abs(sum(ps) - 1) > 1e-6:
             errors.append("Way-back probabilities do not sum to one")
     for i, s in enumerate(data.get("sparks") or [], 1):
-        if not isinstance(s, dict) or not str(s.get("pov", "")).strip():
+        if not isinstance(s, dict) or not isinstance(s.get("pov"), str) or not s["pov"].strip():
             errors.append(f"Spark {i}: needs a 'pov' naming the lead")
     evidence = list(_quotes(data))
     for i, item in enumerate(evidence, 1):

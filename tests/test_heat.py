@@ -13,6 +13,12 @@ def test_a_kiss_is_sweet():
     "She undressed him slowly.",
     "They made love by the fire.",
     "His hand found her bare breast.",
+    "His hand on her breast, he drew her close.",
+    "He kissed her bare shoulder.",
+    "He unlaced her bodice.",
+    "He drew her down onto the bed.",
+    "That night he lay with her.",
+    "He bedded her at last.",
 ])
 def test_explicit_lines_are_flagged(line):
     assert find_heat(line)
@@ -24,6 +30,15 @@ def test_explicit_lines_are_flagged(line):
     "It could not be seen with the naked eye.",
     "Her heart beat hard in her breast.",
     "The naked truth was worse.",
+    "She clutched the letter to her breast.",
+    "He lay with his face to the wall.",
+    "She sat down on the bed to read.",
+    "The child undressed herself for bed and said her prayers.",
+    "She lay with her head on his shoulder.",
+    "She pressed her hand to her breast.",
+    "Her bare shoulders shone in the ballroom.",
+    "The gardener bedded the tulips.",
+    "She unlaced her boots by the fire.",
 ])
 def test_period_phrases_are_not_flagged(line):
     assert find_heat(line) == []
