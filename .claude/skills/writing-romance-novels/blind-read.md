@@ -129,7 +129,9 @@ The calibration anchors, which say what a 7 means for this reader, are in `CALIB
 
 - "What gave it away" is the finding. The scores only say which stage to go back to.
 - **Clarity fails:** a wound is told late or only in backstory. Show it in action in the first act.
-- **One conversation would fix it:** the obstacle is a misunderstanding. Go back to file 01: an inner obstacle survives the truth being told.
+- **One conversation would fix it:** either the obstacle is a misunderstanding, or the beliefs have stopped showing.
+  - **A misunderstanding:** go back to file 01. An inner obstacle survives the truth being told.
+  - **The beliefs have stopped showing:** after the midpoint, every beat weakened a belief and nothing re-confirmed one. Add an event per lead, between the midpoint and the dark moment, in which the belief wins.
 - **Way back first at ch 12:** it has all the support, or it was spotlit. Give each decoy a scene and a quote.
 - **Want flat:** the sparks are descriptions, not exchanges. Fix the skeleton, not the prose.
 - **Sure doesn't fall at the dark moment:** the reader doesn't believe the break. The cause is too small, or it's mended in the same chapter.

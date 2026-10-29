@@ -17,6 +17,9 @@ Each file is under 2,000 words, and written in its own turn. `paperbackwriter-ro
   - What causes the dark moment plays no part in getting past it.
   - Every beat the way back uses either does a job in a wrong way back, or first shows after ch 17.
   - No beat the way back uses is the loudest thing in its scene.
+- **Each false belief wins its last fight before the dark moment.** Between the midpoint and the dark moment, give each lead an event that re-confirms the belief on the page. That can be an argument against the belief that the lead answers and rejects, a cost the lead watches someone else pay, or a public humiliation repeated.
+
+  Growth beats only weaken a belief. If nothing re-confirms it, a reader at ch 17 decides the belief is gone and that one conversation would fix things. That is how the first plan read of Book 1 failed.
 
 ## 02_world_and_period.md
 
@@ -56,6 +59,10 @@ Chapter by chapter:
 - the spark: what passes between them.
 
 Use the mystery engine's outline format, so that `paperbackwriter reader` and `paperbackwriter digest` can build the reader-safe digest in `reader/digest/`.
+
+**Don't leave a bullet's subject only in its label.** `paperbackwriter reader` strips `**Label:**` lead-ins, so "**X's visit:** she wants…" reaches the reader as "She wants…", with no one to refer to. A label followed directly by a quote keeps the label, so "**Spark:** "…"" reaches the reader with "Spark:" still on it.
+
+**In an outline, every bullet is foreground.** A route fact explained in full (how to travel there, what it costs) reads as a gun on the wall, because there is no louder scene in an outline for it to hide in. Give a way-back fact one clause, inside a decoy's business.
 
 **Strip pointers from the skeleton.** Writers copy a skeleton's similes into prose, and a planner's wink becomes a narrator's wink.
 
