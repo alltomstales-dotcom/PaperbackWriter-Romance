@@ -25,6 +25,15 @@ def cmd_beats(a):
     return _print(check_beats(Path(a.plan), a.chapters))
 
 
+def cmd_heat(a):
+    from .heat import report
+    hits = report(Path(a.chapters_dir))
+    for h in hits:
+        print(f"ch{h['chapter']:02d}:{h['line']}  {h['phrase']!r}")
+    print(f"{len(hits)} heat hits (sweet label: kissing only)")
+    return 1 if hits else 0
+
+
 def main(argv=None) -> int:
     argv = list(sys.argv[1:] if argv is None else argv)
     if argv and argv[0] in PASSTHROUGH:
@@ -38,6 +47,10 @@ def main(argv=None) -> int:
     s.add_argument("plan")
     s.add_argument("--chapters", type=int, default=24)
     s.set_defaults(func=cmd_beats)
+
+    s = sub.add_parser("heat", help="sweet-heat lint: nothing past a kiss on the page")
+    s.add_argument("chapters_dir")
+    s.set_defaults(func=cmd_heat)
 
     a = p.parse_args(argv)
     try:
