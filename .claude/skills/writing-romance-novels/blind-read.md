@@ -134,6 +134,8 @@ The calibration anchors, which say what a 7 means for this reader, are in `CALIB
   - **The beliefs have stopped showing:** after the midpoint, every beat weakened a belief and nothing re-confirmed one. Add an event per lead, between the midpoint and the dark moment, in which the belief wins.
 - **Way back first at ch 12:** it has all the support, or it was spotlit. Give each decoy a scene and a quote.
 - **Want flat:** the sparks are descriptions, not exchanges. Fix the skeleton, not the prose.
-- **Sure doesn't fall at the dark moment:** the reader doesn't believe the break. The cause is too small, or it's mended in the same chapter.
+- **Sure doesn't fall at the dark moment:** the reader doesn't believe the break, or can still see a way through it.
+  - **The break isn't believed:** the cause is too small, it's mended in the same chapter, or it reads as a misunderstanding. Make it a choice the lead's belief makes.
+  - **The reader can still see a way:** decoy routes are still open. More live routes make a reader surer, not less sure. At the dark moment, close the decoys on the page, so that only the leads' own beliefs stand in the way.
 
 Record each read: date, the text read, scores, the checkpoint ranks, and what gave it away. Public files get scores only.
