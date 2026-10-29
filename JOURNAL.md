@@ -28,3 +28,12 @@ Spec approved by the author. Nine engine tasks built test-first: growth beats, h
 - **Prose read 2:** every gate passed except sure at the dark moment (9 → 9). Verdict 8 / 8 / 8 / 9 / 8 / 9. Hiding at 17 improved (p .30 → .20).
 - **Proof:** 27 hard-error fixes. **Final read:** 8 / 8 / 9 / 9 / 8 / 9, HEA, obvious at 19.
 - **Released privately.** Writer-brief rules 11 to 16 added; the dark-moment gate recorded as unreliable at the ceiling. Engine tagged `engine-v1`.
+
+## 2026-10-29 · Book 2 (validation) on engine-v1
+
+- **Fact-check:** 27 claims; 15 confirmed, 5 corrected; 6 not found and 1 contested.
+- **Plan read v1:** early gate passed, verdict 7 / 7 / 8 / 6 / 8 / 8, obvious at 18. A fact-check edit made a way-back line loud.
+- **Plan read v2:** early gate passed, and sure fell at the dark moment (8 → 7), a first for an outline read. Verdict 7 / 7 / 7 / 6 / 8 / 8.
+- **Draft 1:** five Sonnet batches, about 56,600 words; heat, period and pointer checks clean.
+- **Prose read 1:** every gate passed, including the dark-moment gate (9 → 8, want 9). Verdict 8 / 8 / 9 / 9 / 9 / 9, HEA.
+- **Fix pass 1:** three Sonnet agents on separate chapter groups. The orders cover continuity, repetition and clarity.
